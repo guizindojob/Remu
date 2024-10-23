@@ -11,22 +11,22 @@ export const menuList = [
       {
         title: "Course List Layouts",
         links: [
-          { href: "/courses-list-4", label: "Course List v4" },
-          { href: "/courses-list-6", label: "Course List v6" },
+          { href: "/courses-list-4", label: "Lista de Curso v1" },
+          { href: "/courses-list-6", label: "Lista de Curso v2" },
         ],
       },
       {
         title: "Course Single Layouts",
 
         links: [
-          { href: "/course-cart", label: "Course Cart" },
-          { href: "/course-checkout", label: "Course Checkout" },
+          { href: "/course-cart", label: "Carrinho de Curso" },
+          { href: "/course-checkout", label: "Checkout de Curso" },
         ],
       },
       {
         title: "About Courses",
         links: [
-          { href: "/lesson-single-2", label: "Lesson Page v2" },
+          { href: "/lesson-single-2", label: "Página de Tarefa" },
         ],
       },
       {
@@ -35,42 +35,42 @@ export const menuList = [
           { href: "/dashboard", label: "Painel" },
           { href: "/dshb-courses", label: "Meus Cursos" },
           { href: "/dshb-bookmarks", label: "Favoritos" },
-          { href: "/dshb-listing", label: "Add Listing" },
+          { href: "/dshb-listing", label: "Adicionar Lista" },
           { href: "/dshb-reviews", label: "Reviews" },
-          { href: "/dshb-settings", label: "Settings" },
-          { href: "/dshb-administration", label: "Administration" },
-          { href: "/dshb-assignment", label: "Assignment" },
-          { href: "/dshb-calendar", label: "Calendar" },
-          { href: "/dshb-dashboard", label: "Single Dashboard" },
-          { href: "/dshb-dictionary", label: "Dictionary" },
+          { href: "/dshb-settings", label: "Configurações" },
+          { href: "/dshb-administration", label: "Adm" },
+          { href: "/dshb-assignment", label: "Administração" },
+          { href: "/dshb-calendar", label: "Calendário" },
+          { href: "/dshb-dashboard", label: "Painel Simples" },
+          { href: "/dshb-dictionary", label: "Dicionário" },
           { href: "/dshb-forums", label: "Forums" },
           { href: "/dshb-grades", label: "Grades" },
-          { href: "/dshb-messages", label: "Messages" },
-          { href: "/dshb-participants", label: "Participants" },
+          { href: "/dshb-messages", label: "Mensagens" },
+          { href: "/dshb-participants", label: "Participantes" },
           { href: "/dshb-quiz", label: "Quiz" },
           { href: "/dshb-survey", label: "Survey" },
         ],
       },
       {
-        title: "Popular Courses",
+        title: "Cursos Populares",
         links: [
         ],
       },
     ],
   },
   {
-    title: "Events",
+    title: "Eventos",
     links: [
-      { href: "/event-list-2", label: "Event List 2" },
-      { href: "/event-cart", label: "Event Cart" },
-      { href: "/event-checkout", label: "Event Checkout" },
+      { href: "/event-list-2", label: "Lista de Eventos" },
+      { href: "/event-cart", label: "Carrinho de Eventos" },
+      { href: "/event-checkout", label: "Checkout do Evento" },
     ],
   },
   {
     title: "Blogs",
     links: [
-      { href: "/blog-list-3", label: "Blog List 3" },
-      { href: "/blogs/3", label: "Blog Single" },
+      { href: "/blog-list-3", label: "Lista de Blogs" },
+      { href: "/blogs/3", label: "Blog Sozinho" },
     ],
   },
   {
@@ -79,17 +79,17 @@ export const menuList = [
       {
         title: "About Us",
         links: [
-          { href: "/about-1", label: "About 1" },
+          { href: "/about-1", label: "Sobre Nós" },
         ],
       },
       {
         title: "Contact",
         links: [
-          { href: "/contact-1", label: "Contact 1" },
+          { href: "/contact-1", label: "Entre em Contato" },
         ],
       },
       {
-        title: "Shop",
+        title: "Comprar",
         links: [
         ],
       },

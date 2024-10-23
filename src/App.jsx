@@ -10,7 +10,7 @@ import { useEffect } from "react";
 import Context from "@/context/Context";
 import HomePage1 from "./pages";
 import CourseListPage4 from "./pages/coursesList/courses-list-4";
-import CourseSinglePage6 from "./pages/courseSingle/courses-single-6/page"; // Verifique se este caminho está correto
+import CourseSinglePage6 from "./pages/courseSingle/courses-single-6/page";
 import CourseCartPage from "./pages/cartPages/course-cart";
 import CourseCheckoutPage from "./pages/cartPages/course-checkout";
 import LessonSinglePage2 from "./pages/aboutCourses/lesson-single-2";
