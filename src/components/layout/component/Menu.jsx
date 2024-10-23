@@ -84,7 +84,7 @@ export default function Menu({ allClasses, headerPosition }) {
                 to="#"
                 className={menuItem == "Courses" ? "activeMenu" : ""}
               >
-                Courses <i className="icon-chevron-right text-13 ml-10"></i>
+                Cursos <i className="icon-chevron-right text-13 ml-10"></i>
               </Link>
 
               <div className="mega xl:d-none">
@@ -92,7 +92,7 @@ export default function Menu({ allClasses, headerPosition }) {
                   <div className="row x-gap-40">
                     <div className="col">
                       <h4 className="text-17 fw-500 mb-20">
-                        Course List Layouts
+                        Lista de Layouts para Cursos
                       </h4>
 
                       <ul className="mega__list">
@@ -115,7 +115,7 @@ export default function Menu({ allClasses, headerPosition }) {
 
                     <div className="col">
                       <h4 className="text-17 fw-500 mb-20">
-                        Course Single Layouts
+                        Layouts Individuais para Cursos
                       </h4>
 
                       <ul className="mega__list">
@@ -137,7 +137,7 @@ export default function Menu({ allClasses, headerPosition }) {
                     </div>
 
                     <div className="col">
-                      <h4 className="text-17 fw-500 mb-20">About Courses</h4>
+                      <h4 className="text-17 fw-500 mb-20">Sobre Cursos</h4>
 
                       <ul className="mega__list">
                         {menuList[1].links[2].links.map((elm, i) => (
@@ -158,7 +158,7 @@ export default function Menu({ allClasses, headerPosition }) {
                     </div>
 
                     <div className="col">
-                      <h4 className="text-17 fw-500 mb-20">Dashboard Pages</h4>
+                      <h4 className="text-17 fw-500 mb-20">Páginas do Painel</h4>
 
                       <ul className="mega__list">
                         {menuList[1].links[3].links.map((elm, i) => (
@@ -224,7 +224,7 @@ export default function Menu({ allClasses, headerPosition }) {
                 to="#"
                 className={menuItem == "Events" ? "activeMenu" : ""}
               >
-                Events <i className="icon-chevron-right text-13 ml-10"></i>
+                Eventos <i className="icon-chevron-right text-13 ml-10"></i>
               </Link>
               <ul className="subnav">
                 <li className="menu__backButton js-nav-list-back">
@@ -288,7 +288,7 @@ export default function Menu({ allClasses, headerPosition }) {
                 to="#"
                 className={menuItem == "Pages" ? "activeMenu" : ""}
               >
-                Pages <i className="icon-chevron-right text-13 ml-10"></i>
+                Páginas <i className="icon-chevron-right text-13 ml-10"></i>
               </Link>
 
               <ul className="subnav">
@@ -304,14 +304,14 @@ export default function Menu({ allClasses, headerPosition }) {
                       submenu == "About Us" ? "activeMenu" : "inActiveMenu"
                     }
                   >
-                    About Us<div className="icon-chevron-right text-11"></div>
+                    Sobre nós<div className="icon-chevron-right text-11"></div>
                   </Link>
 
                   <ul className="subnav">
                     <li className="menu__backButton js-nav-list-back">
                       <Link to="#">
                         <i className="icon-chevron-left text-13 mr-10"></i>
-                        About Us
+                        Sobre Nós
                       </Link>
                     </li>
 
@@ -339,13 +339,13 @@ export default function Menu({ allClasses, headerPosition }) {
                       submenu == "Contact" ? "activeMenu" : "inActiveMenu"
                     }
                   >
-                    Contact<div className="icon-chevron-right text-11"></div>
+                    Contato<div className="icon-chevron-right text-11"></div>
                   </Link>
                   <ul className="subnav">
                     <li className="menu__backButton js-nav-list-back">
                       <Link to="#">
                         <i className="icon-chevron-left text-13 mr-10"></i>
-                        Contact
+                        Contato
                       </Link>
                     </li>
 
@@ -365,39 +365,6 @@ export default function Menu({ allClasses, headerPosition }) {
                     ))}
                   </ul>
                 </li>
-
-                {/* <li className="menu-item-has-children">
-                  <Link
-                    to="#"
-                    className={
-                      submenu == "Shop" ? "activeMenu" : "inActiveMenu"
-                    }
-                  >
-                    <div className="icon-chevron-right text-11"></div>
-                  </Link>
-                  <ul className="subnav">
-                    <li className="menu__backButton js-nav-list-back">
-                      <Link to="#">
-                        <i className="icon-chevron-left text-13 mr-10"></i> 
-                      </Link>
-                    </li>
-
-                    {menuList[4].links[2].links.map((elm, i) => (
-                      <li
-                        key={i}
-                        className={
-                          pathname.split("/")[1] == elm.href.split("/")[1]
-                            ? "activeMenu"
-                            : "inActiveMenu"
-                        }
-                      >
-                        <Link key={i} data-barba to={elm.href}>
-                          {elm.label}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </li> */}
 
                 {menuList[4].links
                   .filter((el) => el.href)
@@ -421,12 +388,12 @@ export default function Menu({ allClasses, headerPosition }) {
             <li>
               <Link
                 data-barba
-                to="/contact-1"
+                to="/contact"
                 className={
-                  pathname == "/contact-1" ? "activeMenu" : "inActiveMenuTwo"
+                  pathname == "/contact" ? "activeMenu" : "inActiveMenuTwo"
                 }
               >
-                Contact
+                Contato
               </Link>
             </li>
           </ul>
