@@ -121,7 +121,7 @@
   --color-green-5: #34A853;
   --color-green-6: #DFF1DD;
   --color-green-7: #D9FFED;
-  --color-orange-1: #E8543E;
+  --color-orange-1: #ff812d;
   --color-orange-2: #F7E9E7;
   --color-orange-3: #FDF2EB;
   --color-orange-4: #E97D38;
@@ -9491,7 +9491,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-green-1 {
-  color: var(--color-green-1) !important;
+  color: #ff8800 !important;
 }
 
 .text-green-2 {
