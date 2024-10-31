@@ -22,12 +22,12 @@ const masthead_info = [
 ];
 
 const hero_content = {
-  title: "Learn New Skills Online with Top",
-  text_underline: "Educators",
+  title: "Aprenda novas habilidades on-line com os melhores",
+  text_underline: "Educadores",
   info_hero: (
     <>
-      Build skills with courses, certificates, and degrees online from
-      <br /> world-class universities and companies.
+      Desenvolva habilidades com cursos, certificados e diplomas on-line em
+      <br /> universidades e empresas de classe mundial.
     </>
   ),
   starts: [
@@ -111,16 +111,16 @@ const HomeHero = () => {
                       to="/signup"
                       className="button -md -purple-1 text-white"
                     >
-                      Join For Free
+                      Cadastre-se gratuitamente
                     </Link>
                   </div>
                   <div className="col-12 col-sm-auto">
                     <Link
                       data-barba
                       to="/courses-list-1"
-                      className="button -md -outline-green-1 text-green-1"
+                      className="button -md -outline-orange-1 text-orange-1"
                     >
-                      Find Courses
+                      Encontre cursos
                     </Link>
                   </div>
                 </div>
@@ -191,7 +191,7 @@ const HomeHero = () => {
                     <img src={"/assets/img/masthead/4.png"} alt="icon" />
                     <div className="ml-20">
                       <div className="text-dark-1 text-16 fw-500 lh-1">
-                        Ali Tufan
+                        Princesa Peach
                       </div>
                       <div className="mt-3">UX/UI Designer</div>
                       <div className="d-flex x-gap-5 mt-3">

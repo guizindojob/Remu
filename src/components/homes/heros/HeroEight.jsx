@@ -27,7 +27,7 @@ export default function HeroEight() {
                     to="/signup"
                     className="button -md -orange-1 text-white"
                   >
-                    Join For Free
+                    Cadastre-se gratuitamente
                   </Link>
                 </div>
                 <div className="col-auto">

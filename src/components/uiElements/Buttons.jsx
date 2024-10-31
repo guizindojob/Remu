@@ -31,7 +31,7 @@ export default function Buttons() {
               </button>
             </div>
             <div className="col-auto">
-              <button className="button -md -outline-green-1 text-green-1">
+              <button className="button -md -outline-orange-1 text-orange-1">
                 Button 2 Hover
               </button>
             </div>

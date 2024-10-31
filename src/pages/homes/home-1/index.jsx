@@ -21,9 +21,9 @@ import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
   title:
-    "Cursos do Gui",
+    "Home-1 || Educrat - Professional LMS Online Education Course ReactJS Template",
   description:
-    "Eleve o nível do seu conhecimento e habilidades editando os melhores templates para cursos."
+    "Elevate your e-learning content with Educrat, the most impressive LMS template for online courses, education and LMS platforms.",
 };
 
 export default function HomePage1() {

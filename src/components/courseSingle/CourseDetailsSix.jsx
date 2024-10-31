@@ -241,7 +241,7 @@ export default function CourseDetailsSix({ id }) {
                       </button>
                     </div>
                     <div className="col-sm-6">
-                      <button className="button -md -outline-green-1 text-green-1 w-1/1">
+                      <button className="button -md -outline-orange-7 text-orange-7 w-1/1">
                         Buy Now
                       </button>
                     </div>
